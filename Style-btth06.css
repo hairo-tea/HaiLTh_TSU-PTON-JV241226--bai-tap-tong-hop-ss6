@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    /*giới hạn lại width và height của một thẻ HTML chỉ nằm bên trong border*/
+}
+
+.post-container {
+    width: 400px;
+}
+
+.post-container img {
+    width: 100%;
+}
+
+.post-container h3 {
+    padding-left: 15px;
+    border-left: 4px solid rgb(234, 96, 50);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.post-container div a {
+    font-size: 26px;
+    color: rgb(49, 48, 48);
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.post-container div {
+    margin-bottom: 15px;
+}
+
+.post-container p {
+    margin-bottom: 20px;
+    color: rgb(136, 133, 133);
+}
+
+.post-container ul li {
+    border-top: 1px solid rgb(216, 215, 215);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: rgb(76, 75, 75);
+}
